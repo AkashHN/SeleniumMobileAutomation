@@ -119,7 +119,7 @@ public class LetyShopsTest extends Base {
 			Assert.assertTrue(isTitleDisplayed, "Password recovery title should be displayed");
 			test.log(isTitleDisplayed ? Status.PASS : Status.FAIL,
 					isTitleDisplayed ? "Password recovery title is displayed" : "Password recovery title is not displayed");
-//			loginPage.clickNavigateButton();
+			loginPage.clickNavigateButton();
 			logger.info("validating forgot password Ended");
 		} catch (Exception e) {
 			logger.info("Test Page failed : " + e.getMessage());
