@@ -1,0 +1,16 @@
+com\page\GoToStorePage.class
+com\base\JsonDataConvertor.class
+com\base\Base.class
+com\page\HomePage.class
+com\base\SendEmailWithAttachment.class
+com\base\AppiumServer.class
+com\test\LetyShopsTest.class
+com\page\LanguageSelectPage.class
+com\page\web\AdminPage.class
+com\page\WelcomePage.class
+com\test\MobileWebTest.class
+com\page\web\HRMLoginPage.class
+com\page\LoginPage.class
+com\page\web\DashboardPage.class
+com\page\web\ChromePage.class
+com\page\AccountPage.class
