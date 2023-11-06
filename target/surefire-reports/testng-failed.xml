@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test1(failed)" verbose="0">
+    <classes>
+      <class name="com.test.LetyShopsTest">
+        <methods>
+          <include name="setUpTest"/>
+          <include name="getResult"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="endReport"/>
+          <include name="validateForgotPassword"/>
+          <include name="startReport"/>
+        </methods>
+      </class> <!-- com.test.LetyShopsTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

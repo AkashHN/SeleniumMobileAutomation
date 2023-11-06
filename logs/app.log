@@ -1,35 +1,34 @@
-15:36:29.150 [main] INFO  com.base.Base - Capability setup is started
-15:36:45.204 [main] INFO  com.base.Base - Capability SetUp is completed :
-Capabilities {app: C:\new\seleniummobileautoma..., appium:appActivity: com.letyshops.presentation...., appium:appPackage: com.letyshops, appium:autoAcceptAlerts: true, appium:noReset: false, automationName: UiAutomator2, deviceName: emulator-5554, newCommandTimeout: 60, platformName: ANDROID, platformVersion: 14}
-15:36:45.212 [main] INFO  com.base.Base - Report Setup in each Test
-15:36:45.578 [main] INFO  com.test.LetyShopsTest - Welcome Page Test Started
-15:36:54.864 [main] INFO  com.test.LetyShopsTest - Welcome Page Test Ended
-15:36:54.867 [main] INFO  com.base.Base - Report Result in each Test
-15:36:54.870 [main] INFO  com.test.LetyShopsTest - LogIn Page Test without credentials Started
-15:36:58.434 [main] INFO  com.test.LetyShopsTest - LogIn Page Test Ended
-15:36:58.434 [main] INFO  com.base.Base - Report Result in each Test
-15:36:58.435 [main] INFO  com.test.LetyShopsTest - validating forgot password
-15:37:00.458 [main] INFO  com.test.LetyShopsTest - validating forgot password Ended
-15:37:00.459 [main] INFO  com.base.Base - Report Result in each Test
-15:37:00.460 [main] INFO  com.test.LetyShopsTest - LogIn Page Test with valid  Started
-15:37:04.722 [main] INFO  com.test.LetyShopsTest - LogIn Page Test Ended
-15:37:04.723 [main] INFO  com.base.Base - Report Result in each Test
-15:37:04.724 [main] INFO  com.test.LetyShopsTest - Select Language Page Test Started
-15:38:05.339 [main] INFO  com.test.LetyShopsTest - Select Language Page failed : An element could not be located on the page using the given search parameters.
+11:57:28.367 [main] INFO  com.base.Base - Capability setup is started
+11:58:09.852 [main] INFO  com.base.Base - Capability SetUp is completed :
+Capabilities {app: C:\Git\SeleniumMobileAutoma..., appium:appActivity: com.letyshops.presentation...., appium:appPackage: com.letyshops, appium:autoAcceptAlerts: true, appium:noReset: false, automationName: UiAutomator2, deviceName: emulator-5554, newCommandTimeout: 60, platformName: ANDROID, platformVersion: 14}
+11:58:09.858 [main] INFO  com.base.Base - Report Setup in each Test
+11:58:10.138 [main] INFO  com.test.LetyShopsTest - Welcome Page Test Started
+11:58:16.205 [main] INFO  com.test.LetyShopsTest - Welcome Page Test Ended
+11:58:16.210 [main] INFO  com.base.Base - Report Result in each Test
+11:58:16.223 [main] INFO  com.test.LetyShopsTest - LogIn Page Test without credentials Started
+11:58:19.911 [main] INFO  com.test.LetyShopsTest - LogIn Page Test Ended
+11:58:19.912 [main] INFO  com.base.Base - Report Result in each Test
+11:58:19.913 [main] INFO  com.test.LetyShopsTest - validating forgot password
+11:58:20.310 [main] INFO  com.base.Base - Report Result in each Test
+11:58:21.790 [main] INFO  com.test.LetyShopsTest - LogIn Page Test with valid  Started
+11:58:25.447 [main] INFO  com.test.LetyShopsTest - LogIn Page Test Ended
+11:58:25.449 [main] INFO  com.base.Base - Report Result in each Test
+11:58:25.452 [main] INFO  com.test.LetyShopsTest - Select Language Page Test Started
+11:59:25.836 [main] INFO  com.test.LetyShopsTest - Select Language Page failed : An element could not be located on the page using the given search parameters.
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: '4.12.1', revision: '8e34639b11'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: io.appium.java_client.android.AndroidDriver
-Command: [1601b41e-0a86-4335-b475-e64987a9f185, findElement {using=xpath, value=//android.widget.TextView[@resource-id='com.letyshops:id/tv_choose_country_title']}]
-Capabilities {appium:app: C:\new\seleniummobileautoma..., appium:appActivity: com.letyshops.presentation...., appium:appPackage: com.letyshops, appium:autoAcceptAlerts: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\new\seleniummobileautoma..., appActivity: com.letyshops.presentation...., appPackage: com.letyshops, autoAcceptAlerts: true, automationName: UiAutomator2, deviceName: emulator-5554, newCommandTimeout: 60, noReset: false, platformName: ANDROID, platformVersion: 14}, appium:deviceApiLevel: 34, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:noReset: false, appium:pixelRatio: 2.625, appium:platformVersion: 14, appium:statBarHeight: 136, appium:takesScreenshot: true, appium:viewportRect: {height: 2065, left: 0, top: 136, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
-Session ID: 1601b41e-0a86-4335-b475-e64987a9f185
-15:38:05.341 [main] INFO  com.base.Base - Report Result in each Test
-15:38:05.342 [main] INFO  com.test.LetyShopsTest - Notification check page Started
-15:38:08.355 [main] INFO  com.base.Base - Report Result in each Test
-15:38:08.357 [main] INFO  com.test.LetyShopsTest - Search Item Test Started
-15:38:15.266 [main] INFO  com.base.Base - Report Result in each Test
-15:38:15.270 [main] INFO  com.test.LetyShopsTest - Search Item Test Started
-15:38:45.552 [main] INFO  com.base.Base - Report Result in each Test
-15:38:45.553 [main] INFO  com.test.LetyShopsTest - Profile page test has Started
-15:39:05.085 [main] INFO  com.test.LetyShopsTest - Profile Page Test Ended
-15:39:05.085 [main] INFO  com.base.Base - Report Result in each Test
+Command: [630352d4-f111-4e38-8ee0-522db485b2d1, findElement {using=xpath, value=//android.widget.TextView[@resource-id='com.letyshops:id/tv_choose_country_title']}]
+Capabilities {appium:app: C:\Git\SeleniumMobileAutoma..., appium:appActivity: com.letyshops.presentation...., appium:appPackage: com.letyshops, appium:autoAcceptAlerts: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Git\SeleniumMobileAutoma..., appActivity: com.letyshops.presentation...., appPackage: com.letyshops, autoAcceptAlerts: true, automationName: UiAutomator2, deviceName: emulator-5554, newCommandTimeout: 60, noReset: false, platformName: ANDROID, platformVersion: 14}, appium:deviceApiLevel: 34, appium:deviceManufacturer: Google, appium:deviceModel: sdk_gphone64_x86_64, appium:deviceName: emulator-5554, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: emulator-5554, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 60, appium:noReset: false, appium:pixelRatio: 2.625, appium:platformVersion: 14, appium:statBarHeight: 136, appium:takesScreenshot: true, appium:viewportRect: {height: 2065, left: 0, top: 136, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Session ID: 630352d4-f111-4e38-8ee0-522db485b2d1
+11:59:25.837 [main] INFO  com.base.Base - Report Result in each Test
+11:59:25.838 [main] INFO  com.test.LetyShopsTest - Notification check page Started
+11:59:29.491 [main] INFO  com.base.Base - Report Result in each Test
+11:59:29.493 [main] INFO  com.test.LetyShopsTest - Search Item Test Started
+11:59:34.952 [main] INFO  com.base.Base - Report Result in each Test
+11:59:34.954 [main] INFO  com.test.LetyShopsTest - Search Item Test Started
+12:00:03.469 [main] INFO  com.base.Base - Report Result in each Test
+12:00:03.473 [main] INFO  com.test.LetyShopsTest - Profile page test has Started
+12:00:24.096 [main] INFO  com.test.LetyShopsTest - Profile Page Test Ended
+12:00:24.099 [main] INFO  com.base.Base - Report Result in each Test

@@ -1,29 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-28T15:36:45 IST" name="Suite" finished-at="2023-09-28T15:39:05 IST" duration-ms="140242">
+  <suite started-at="2023-11-06T11:58:09 IST" name="Suite" finished-at="2023-11-06T12:00:24 IST" duration-ms="134595">
     <groups>
     </groups>
-    <test started-at="2023-09-28T15:36:45 IST" name="Test1" finished-at="2023-09-28T15:39:05 IST" duration-ms="140242">
+    <test started-at="2023-11-06T11:58:09 IST" name="Test1" finished-at="2023-11-06T12:00:24 IST" duration-ms="134595">
       <class name="com.test.LetyShopsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:36:29 IST" name="setUp" finished-at="2023-09-28T15:36:45 IST" duration-ms="16067" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T11:57:28 IST" name="setUp" finished-at="2023-11-06T11:58:09 IST" duration-ms="41503" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startReport()[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:36:45 IST" name="startReport" finished-at="2023-09-28T15:36:45 IST" duration-ms="299" status="PASS">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T11:58:09 IST" name="startReport" finished-at="2023-11-06T11:58:10 IST" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:36:45 IST" name="setUpTest" finished-at="2023-09-28T15:36:45 IST" depends-on-methods="com.base.Base.startReport" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T11:58:10 IST" name="setUpTest" finished-at="2023-11-06T11:58:10 IST" depends-on-methods="com.base.Base.startReport" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="welcomePage()[pri:1, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:36:45 IST" name="welcomePage" finished-at="2023-09-28T15:36:54 IST" duration-ms="9287" status="PASS">
+        <test-method signature="welcomePage()[pri:1, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T11:58:10 IST" name="welcomePage" finished-at="2023-11-06T11:58:16 IST" duration-ms="6069" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- welcomePage -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:36:54 IST" name="getResult" finished-at="2023-09-28T15:36:54 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T11:58:16 IST" name="getResult" finished-at="2023-11-06T11:58:16 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -34,11 +34,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="loginWithoutCredentials()[pri:2, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:36:54 IST" name="loginWithoutCredentials" finished-at="2023-09-28T15:36:58 IST" duration-ms="3565" status="PASS">
+        <test-method signature="loginWithoutCredentials()[pri:2, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T11:58:16 IST" name="loginWithoutCredentials" finished-at="2023-11-06T11:58:19 IST" duration-ms="3691" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithoutCredentials -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:36:58 IST" name="getResult" finished-at="2023-09-28T15:36:58 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T11:58:19 IST" name="getResult" finished-at="2023-11-06T11:58:19 IST" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -49,26 +49,73 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="validateForgotPassword()[pri:3, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:36:58 IST" name="validateForgotPassword" finished-at="2023-09-28T15:37:00 IST" duration-ms="2023" status="PASS">
+        <test-method signature="validateForgotPassword()[pri:3, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T11:58:19 IST" name="validateForgotPassword" finished-at="2023-11-06T11:58:20 IST" duration-ms="392" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Forgot Password text is displayed as expected expected [Forgot password] but found [Forgot password?]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Forgot Password text is displayed as expected expected [Forgot password] but found [Forgot password?]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at com.test.LetyShopsTest.validateForgotPassword(LetyShopsTest.java:113)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
+at org.testng.SuiteRunner.run(SuiteRunner.java:330)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
+at org.testng.TestNG.runSuites(TestNG.java:1099)
+at org.testng.TestNG.run(TestNG.java:1067)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:283)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:120)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:384)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:345)
+at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:126)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:418)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateForgotPassword -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:37:00 IST" name="getResult" finished-at="2023-09-28T15:37:00 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T11:58:20 IST" name="getResult" finished-at="2023-11-06T11:58:21 IST" duration-ms="1479" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=validateForgotPassword status=SUCCESS method=LetyShopsTest.validateForgotPassword()[pri:3, instance:com.test.LetyShopsTest@1afdd473] output={null}]]]>
+                <![CDATA[[TestResult name=validateForgotPassword status=FAILURE method=LetyShopsTest.validateForgotPassword()[pri:3, instance:com.test.LetyShopsTest@1afdd473] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="testLoginWithValidCredentials()[pri:6, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:37:00 IST" name="testLoginWithValidCredentials" finished-at="2023-09-28T15:37:04 IST" duration-ms="4262" status="PASS">
+        <test-method signature="testLoginWithValidCredentials()[pri:6, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T11:58:21 IST" name="testLoginWithValidCredentials" finished-at="2023-11-06T11:58:25 IST" duration-ms="3658" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithValidCredentials -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:37:04 IST" name="getResult" finished-at="2023-09-28T15:37:04 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T11:58:25 IST" name="getResult" finished-at="2023-11-06T11:58:25 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -79,11 +126,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="selectLanguage()[pri:7, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:37:04 IST" name="selectLanguage" finished-at="2023-09-28T15:38:05 IST" duration-ms="60616" status="PASS">
+        <test-method signature="selectLanguage()[pri:7, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T11:58:25 IST" name="selectLanguage" finished-at="2023-11-06T11:59:25 IST" duration-ms="60385" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectLanguage -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:38:05 IST" name="getResult" finished-at="2023-09-28T15:38:05 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T11:59:25 IST" name="getResult" finished-at="2023-11-06T11:59:25 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -94,11 +141,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="checkNotification()[pri:8, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:38:05 IST" name="checkNotification" finished-at="2023-09-28T15:38:08 IST" duration-ms="3012" status="PASS">
+        <test-method signature="checkNotification()[pri:8, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T11:59:25 IST" name="checkNotification" finished-at="2023-11-06T11:59:29 IST" duration-ms="3650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkNotification -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:38:08 IST" name="getResult" finished-at="2023-09-28T15:38:08 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T11:59:29 IST" name="getResult" finished-at="2023-11-06T11:59:29 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -109,11 +156,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="searchItem()[pri:9, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:38:08 IST" name="searchItem" finished-at="2023-09-28T15:38:15 IST" duration-ms="6902" status="PASS">
+        <test-method signature="searchItem()[pri:9, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T11:59:29 IST" name="searchItem" finished-at="2023-11-06T11:59:34 IST" duration-ms="5458" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchItem -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:38:15 IST" name="getResult" finished-at="2023-09-28T15:38:15 IST" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T11:59:34 IST" name="getResult" finished-at="2023-11-06T11:59:34 IST" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -124,11 +171,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="storePage()[pri:10, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:38:15 IST" name="storePage" finished-at="2023-09-28T15:38:45 IST" duration-ms="30283" status="PASS">
+        <test-method signature="storePage()[pri:10, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T11:59:34 IST" name="storePage" finished-at="2023-11-06T12:00:03 IST" duration-ms="28514" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- storePage -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:38:45 IST" name="getResult" finished-at="2023-09-28T15:38:45 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T12:00:03 IST" name="getResult" finished-at="2023-11-06T12:00:03 IST" duration-ms="2" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -139,11 +186,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="testProfile()[pri:11, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:38:45 IST" name="testProfile" finished-at="2023-09-28T15:39:05 IST" duration-ms="19532" status="PASS">
+        <test-method signature="testProfile()[pri:11, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T12:00:03 IST" name="testProfile" finished-at="2023-11-06T12:00:24 IST" duration-ms="20624" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProfile -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:39:05 IST" name="getResult" finished-at="2023-09-28T15:39:05 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T12:00:24 IST" name="getResult" finished-at="2023-11-06T12:00:24 IST" duration-ms="3" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -154,11 +201,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:39:05 IST" name="endReport" finished-at="2023-09-28T15:39:05 IST" duration-ms="363" status="PASS">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T12:00:24 IST" name="endReport" finished-at="2023-11-06T12:00:24 IST" duration-ms="345" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-09-28T15:39:05 IST" name="tearDown" finished-at="2023-09-28T15:39:11 IST" duration-ms="6297" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.LetyShopsTest@1afdd473]" started-at="2023-11-06T12:00:24 IST" name="tearDown" finished-at="2023-11-06T12:00:30 IST" duration-ms="6309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

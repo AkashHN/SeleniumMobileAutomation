@@ -48,7 +48,7 @@ public class Base {
 
     @BeforeSuite(alwaysRun = true)
     public void setUp() throws Exception {
-        System.setProperty("log4j.configurationFile", "./config/log4j2.xml");
+        System.setProperty("log4j.configurationFile", "./log4j2.xml");
         logger.info("Capability setup is started");
         try {
 //			AppiumServer.getServer().start();
@@ -145,6 +145,6 @@ public class Base {
     public void tearDown() {
         driver.quit();
 //        AppiumServer.getServer().stop();
-        SendEmailWithAttachment.sendEmailWithReport("./reports/Extentreport.html");
+        SendEmailWithAttachment.sendEmailWithReport("./reports/Extentreport.html", configProperties);
     }
 }
