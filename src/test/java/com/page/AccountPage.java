@@ -5,7 +5,6 @@ import org.openqa.selenium.WebElement;
 
 import io.appium.java_client.AppiumBy;
 import io.appium.java_client.AppiumDriver;
-import io.appium.java_client.android.AndroidDriver;
 
 public class AccountPage {
 	private final By accountIcon = By.xpath("//android.widget.FrameLayout[@content-desc=\"Account\"]/android.view.ViewGroup/android.widget.TextView");
@@ -18,7 +17,6 @@ public class AccountPage {
 	private final By closeEditProfileIcon = By.xpath("//android.widget.ImageButton[@content-desc='Navigate up']");
 	private final By exitOption = By.xpath("//android.widget.TextView[@text='EXIT']");
 	private final By clsReferalDialog = By.xpath("//android.widget.ImageView[@content-desc='close']");
-	private By logOutOption = By.xpath("//android.widget.TextView[@text='Logout']");
 	private By okOption = By.xpath("//android.widget.TextView[@resource-id='com.letyshops:id/md_buttonDefaultPositive']");
 	private AppiumDriver driver;
 

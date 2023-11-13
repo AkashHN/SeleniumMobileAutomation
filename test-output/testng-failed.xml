@@ -6,20 +6,12 @@
       <class name="com.test.LetyShopsTest">
         <methods>
           <include name="setUpTest"/>
-          <include name="loginWithoutCredentials"/>
           <include name="getResult"/>
-          <include name="testLoginWithValidCredentials"/>
-          <include name="selectLanguage"/>
-          <include name="setUp"/>
-          <include name="checkNotification"/>
-          <include name="validateForgotPassword"/>
-          <include name="storePage"/>
-          <include name="searchItem"/>
           <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="validateForgotPassword"/>
           <include name="endReport"/>
-          <include name="testProfile"/>
           <include name="startReport"/>
-          <include name="welcomePage"/>
         </methods>
       </class> <!-- com.test.LetyShopsTest -->
     </classes>

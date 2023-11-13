@@ -1,6 +1,7 @@
 package com.base;
 
 import java.io.File;
+import java.util.Properties;
 
 import io.appium.java_client.service.local.AppiumDriverLocalService;
 import io.appium.java_client.service.local.AppiumServiceBuilder;
@@ -8,13 +9,13 @@ import io.appium.java_client.service.local.flags.GeneralServerFlag;
 
 public class AppiumServer {
 
-	public static AppiumDriverLocalService getServer() {
+	public static AppiumDriverLocalService getServer(Properties configProperties) {
 		AppiumServiceBuilder serviceBuilder = new AppiumServiceBuilder();
-		serviceBuilder.usingPort(4723).withIPAddress("127.0.0.1")
-				.usingDriverExecutable(new File("C:\\Program Files\\nodejs\\node.exe"))
-				.withAppiumJS(new File("C:\\Users\\akash.h\\AppData\\Roaming\\npm\\node_modules\\appium\\build\\lib\\appium.js"))
-				.withArgument(GeneralServerFlag.SESSION_OVERRIDE).withLogFile(new File("AppiumLog.txt"))
-				.withArgument(GeneralServerFlag.SESSION_OVERRIDE);
+		serviceBuilder.withIPAddress(configProperties.getProperty("appiumServerIPAddress")).usingPort(Integer.parseInt(configProperties.getProperty("appiumServerPort")))
+				.withAppiumJS(new File(configProperties.getProperty("appiumFilePath")))
+				.usingDriverExecutable(new File(configProperties.getProperty("nodeJSPath")))
+				.withArgument(GeneralServerFlag.SESSION_OVERRIDE).withArgument(GeneralServerFlag.LOG_LEVEL, "debug")
+				.withLogFile(new File("AppiumLog.txt"));
 		return AppiumDriverLocalService.buildService(serviceBuilder);
 	}
 }

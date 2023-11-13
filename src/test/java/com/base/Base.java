@@ -50,11 +50,13 @@ public class Base {
     public void setUp() throws Exception {
         System.setProperty("log4j.configurationFile", "./log4j2.xml");
         logger.info("Capability setup is started");
+        
         try {
-//			AppiumServer.getServer().start();
+			
             configProperties = new Properties();
             properties = new Properties();
             configProperties.load(App.class.getClassLoader().getResourceAsStream("./config/configBase.properties"));
+            AppiumServer.getServer(configProperties).start();
             if (configProperties.getProperty("browser").equals("true")) {
                 properties.load(App.class.getClassLoader().getResourceAsStream("./config/orangehrm.properties"));
                 jsonUserData = jsonDataCoverter.getJson(properties.getProperty("orangeHRMDataPath"));
@@ -144,7 +146,7 @@ public class Base {
     @AfterSuite
     public void tearDown() {
         driver.quit();
-//        AppiumServer.getServer().stop();
+        AppiumServer.getServer(configProperties).stop();
         SendEmailWithAttachment.sendEmailWithReport("./reports/Extentreport.html", configProperties);
     }
 }

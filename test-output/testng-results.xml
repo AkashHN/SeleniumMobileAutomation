@@ -1,175 +1,85 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="9" passed="0" failed="0" skipped="9">
+<testng-results ignored="0" total="9" passed="8" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-09-27T16:14:06 IST" name="Default suite" finished-at="2023-09-27T16:14:06 IST" duration-ms="145">
+  <suite started-at="2023-11-13T14:41:31 IST" name="Default suite" finished-at="2023-11-13T14:43:45 IST" duration-ms="134783">
     <groups>
     </groups>
-    <test started-at="2023-09-27T16:14:06 IST" name="Default test" finished-at="2023-09-27T16:14:06 IST" duration-ms="145">
+    <test started-at="2023-11-13T14:41:31 IST" name="Default test" finished-at="2023-11-13T14:43:45 IST" duration-ms="134783">
       <class name="com.test.LetyShopsTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:13:46 IST" name="setUp" finished-at="2023-09-27T16:14:06 IST" duration-ms="20079" status="FAIL">
-          <exception class="io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException">
-            <message>
-              <![CDATA[[The local appium server has not been started, Reason: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms, Consider increasing the server startup timeout value (currently 20000ms), Node.js executable path: C:\Program Files\nodejs\node.exe, Arguments: [C:\Users\akash.h\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js, --port, 4723, --address, 127.0.0.1, --log, C:\new\seleniummobileautomation\AppiumLog.txt, --session-override]]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException: [The local appium server has not been started, Reason: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms, Consider increasing the server startup timeout value (currently 20000ms), Node.js executable path: C:\Program Files\nodejs\node.exe, Arguments: [C:\Users\akash.h\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js, --port, 4723, --address, 127.0.0.1, --log, C:\new\seleniummobileautomation\AppiumLog.txt, --session-override]]
-at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:202)
-at com.base.Base.setUp(Base.java:54)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:94)
-at io.appium.java_client.service.local.AppiumDriverLocalService.ping(AppiumDriverLocalService.java:157)
-at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:181)
-... 20 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:91)
-... 22 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:40:49 IST" name="setUp" finished-at="2023-11-13T14:41:31 IST" duration-ms="41864" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="startReport()[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:14:06 IST" name="startReport" finished-at="2023-09-27T16:14:06 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="startReport()[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:41:31 IST" name="startReport" finished-at="2023-11-13T14:41:31 IST" duration-ms="356" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startReport -->
-        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:14:06 IST" name="setUpTest" finished-at="2023-09-27T16:14:06 IST" depends-on-methods="com.base.Base.startReport" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="setUpTest()[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:41:31 IST" name="setUpTest" finished-at="2023-11-13T14:41:31 IST" depends-on-methods="com.base.Base.startReport" duration-ms="3" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpTest -->
-        <test-method signature="welcomePage()[pri:1, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:14:06 IST" name="welcomePage" finished-at="2023-09-27T16:14:06 IST" duration-ms="0" status="SKIP">
-          <exception class="io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException">
-            <message>
-              <![CDATA[[The local appium server has not been started, Reason: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms, Consider increasing the server startup timeout value (currently 20000ms), Node.js executable path: C:\Program Files\nodejs\node.exe, Arguments: [C:\Users\akash.h\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js, --port, 4723, --address, 127.0.0.1, --log, C:\new\seleniummobileautomation\AppiumLog.txt, --session-override]]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException: [The local appium server has not been started, Reason: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms, Consider increasing the server startup timeout value (currently 20000ms), Node.js executable path: C:\Program Files\nodejs\node.exe, Arguments: [C:\Users\akash.h\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js, --port, 4723, --address, 127.0.0.1, --log, C:\new\seleniummobileautomation\AppiumLog.txt, --session-override]]
-at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:202)
-at com.base.Base.setUp(Base.java:54)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:94)
-at io.appium.java_client.service.local.AppiumDriverLocalService.ping(AppiumDriverLocalService.java:157)
-at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:181)
-... 20 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:91)
-... 22 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException -->
+        <test-method signature="welcomePage()[pri:1, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:41:31 IST" name="welcomePage" finished-at="2023-11-13T14:41:37 IST" duration-ms="6065" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- welcomePage -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:14:06 IST" name="getResult" finished-at="2023-09-27T16:14:06 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:41:37 IST" name="getResult" finished-at="2023-11-13T14:41:37 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=welcomePage status=SUCCESS method=LetyShopsTest.welcomePage()[pri:1, instance:com.test.LetyShopsTest@61526469] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="loginWithoutCredentials()[pri:2, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:14:06 IST" name="loginWithoutCredentials" finished-at="2023-09-27T16:14:06 IST" duration-ms="0" status="SKIP">
-          <exception class="io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException">
-            <message>
-              <![CDATA[[The local appium server has not been started, Reason: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms, Consider increasing the server startup timeout value (currently 20000ms), Node.js executable path: C:\Program Files\nodejs\node.exe, Arguments: [C:\Users\akash.h\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js, --port, 4723, --address, 127.0.0.1, --log, C:\new\seleniummobileautomation\AppiumLog.txt, --session-override]]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException: [The local appium server has not been started, Reason: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms, Consider increasing the server startup timeout value (currently 20000ms), Node.js executable path: C:\Program Files\nodejs\node.exe, Arguments: [C:\Users\akash.h\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js, --port, 4723, --address, 127.0.0.1, --log, C:\new\seleniummobileautomation\AppiumLog.txt, --session-override]]
-at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:202)
-at com.base.Base.setUp(Base.java:54)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:94)
-at io.appium.java_client.service.local.AppiumDriverLocalService.ping(AppiumDriverLocalService.java:157)
-at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:181)
-... 20 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:91)
-... 22 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException -->
+        <test-method signature="loginWithoutCredentials()[pri:2, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:41:37 IST" name="loginWithoutCredentials" finished-at="2023-11-13T14:41:41 IST" duration-ms="3492" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginWithoutCredentials -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:14:06 IST" name="getResult" finished-at="2023-09-27T16:14:06 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:41:41 IST" name="getResult" finished-at="2023-11-13T14:41:41 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=loginWithoutCredentials status=SUCCESS method=LetyShopsTest.loginWithoutCredentials()[pri:2, instance:com.test.LetyShopsTest@61526469] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="validateForgotPassword()[pri:3, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:14:06 IST" name="validateForgotPassword" finished-at="2023-09-27T16:14:06 IST" duration-ms="0" status="SKIP">
-          <exception class="io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException">
+        <test-method signature="validateForgotPassword()[pri:3, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:41:41 IST" name="validateForgotPassword" finished-at="2023-11-13T14:41:41 IST" duration-ms="384" status="FAIL">
+          <exception class="java.lang.AssertionError">
             <message>
-              <![CDATA[[The local appium server has not been started, Reason: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms, Consider increasing the server startup timeout value (currently 20000ms), Node.js executable path: C:\Program Files\nodejs\node.exe, Arguments: [C:\Users\akash.h\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js, --port, 4723, --address, 127.0.0.1, --log, C:\new\seleniummobileautomation\AppiumLog.txt, --session-override]]]]>
+              <![CDATA[Forgot Password text is displayed as expected expected [Forgot password] but found [Forgot password?]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException: [The local appium server has not been started, Reason: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms, Consider increasing the server startup timeout value (currently 20000ms), Node.js executable path: C:\Program Files\nodejs\node.exe, Arguments: [C:\Users\akash.h\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js, --port, 4723, --address, 127.0.0.1, --log, C:\new\seleniummobileautomation\AppiumLog.txt, --session-override]]
-at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:202)
-at com.base.Base.setUp(Base.java:54)
+              <![CDATA[java.lang.AssertionError: Forgot Password text is displayed as expected expected [Forgot password] but found [Forgot password?]
+at org.testng.Assert.fail(Assert.java:110)
+at org.testng.Assert.failNotEquals(Assert.java:1577)
+at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+at org.testng.Assert.assertEquals(Assert.java:131)
+at org.testng.Assert.assertEquals(Assert.java:655)
+at com.test.LetyShopsTest.validateForgotPassword(LetyShopsTest.java:113)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:677)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:221)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:969)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:194)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:829)
+at org.testng.TestRunner.run(TestRunner.java:602)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:437)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:431)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:391)
 at org.testng.SuiteRunner.run(SuiteRunner.java:330)
 at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
 at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
@@ -180,312 +90,118 @@ at org.testng.TestNG.run(TestNG.java:1067)
 at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
 at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:94)
-at io.appium.java_client.service.local.AppiumDriverLocalService.ping(AppiumDriverLocalService.java:157)
-at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:181)
-... 20 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:91)
-... 22 more
 ]]>
             </full-stacktrace>
-          </exception> <!-- io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException -->
+          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateForgotPassword -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:14:06 IST" name="getResult" finished-at="2023-09-27T16:14:06 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:41:41 IST" name="getResult" finished-at="2023-11-13T14:41:42 IST" duration-ms="1083" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateForgotPassword status=FAILURE method=LetyShopsTest.validateForgotPassword()[pri:3, instance:com.test.LetyShopsTest@61526469] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="testLoginWithValidCredentials()[pri:6, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:14:06 IST" name="testLoginWithValidCredentials" finished-at="2023-09-27T16:14:06 IST" duration-ms="0" status="SKIP">
-          <exception class="io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException">
-            <message>
-              <![CDATA[[The local appium server has not been started, Reason: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms, Consider increasing the server startup timeout value (currently 20000ms), Node.js executable path: C:\Program Files\nodejs\node.exe, Arguments: [C:\Users\akash.h\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js, --port, 4723, --address, 127.0.0.1, --log, C:\new\seleniummobileautomation\AppiumLog.txt, --session-override]]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException: [The local appium server has not been started, Reason: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms, Consider increasing the server startup timeout value (currently 20000ms), Node.js executable path: C:\Program Files\nodejs\node.exe, Arguments: [C:\Users\akash.h\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js, --port, 4723, --address, 127.0.0.1, --log, C:\new\seleniummobileautomation\AppiumLog.txt, --session-override]]
-at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:202)
-at com.base.Base.setUp(Base.java:54)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:94)
-at io.appium.java_client.service.local.AppiumDriverLocalService.ping(AppiumDriverLocalService.java:157)
-at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:181)
-... 20 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:91)
-... 22 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException -->
+        <test-method signature="testLoginWithValidCredentials()[pri:6, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:41:42 IST" name="testLoginWithValidCredentials" finished-at="2023-11-13T14:41:46 IST" duration-ms="3688" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginWithValidCredentials -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:14:06 IST" name="getResult" finished-at="2023-09-27T16:14:06 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:41:46 IST" name="getResult" finished-at="2023-11-13T14:41:46 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testLoginWithValidCredentials status=SUCCESS method=LetyShopsTest.testLoginWithValidCredentials()[pri:6, instance:com.test.LetyShopsTest@61526469] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="selectLanguage()[pri:7, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:14:06 IST" name="selectLanguage" finished-at="2023-09-27T16:14:06 IST" duration-ms="0" status="SKIP">
-          <exception class="io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException">
-            <message>
-              <![CDATA[[The local appium server has not been started, Reason: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms, Consider increasing the server startup timeout value (currently 20000ms), Node.js executable path: C:\Program Files\nodejs\node.exe, Arguments: [C:\Users\akash.h\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js, --port, 4723, --address, 127.0.0.1, --log, C:\new\seleniummobileautomation\AppiumLog.txt, --session-override]]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException: [The local appium server has not been started, Reason: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms, Consider increasing the server startup timeout value (currently 20000ms), Node.js executable path: C:\Program Files\nodejs\node.exe, Arguments: [C:\Users\akash.h\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js, --port, 4723, --address, 127.0.0.1, --log, C:\new\seleniummobileautomation\AppiumLog.txt, --session-override]]
-at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:202)
-at com.base.Base.setUp(Base.java:54)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:94)
-at io.appium.java_client.service.local.AppiumDriverLocalService.ping(AppiumDriverLocalService.java:157)
-at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:181)
-... 20 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:91)
-... 22 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException -->
+        <test-method signature="selectLanguage()[pri:7, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:41:46 IST" name="selectLanguage" finished-at="2023-11-13T14:42:47 IST" duration-ms="60672" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- selectLanguage -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:14:06 IST" name="getResult" finished-at="2023-09-27T16:14:06 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:42:47 IST" name="getResult" finished-at="2023-11-13T14:42:47 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=selectLanguage status=SUCCESS method=LetyShopsTest.selectLanguage()[pri:7, instance:com.test.LetyShopsTest@61526469] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="checkNotification()[pri:8, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:14:06 IST" name="checkNotification" finished-at="2023-09-27T16:14:06 IST" duration-ms="0" status="SKIP">
-          <exception class="io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException">
-            <message>
-              <![CDATA[[The local appium server has not been started, Reason: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms, Consider increasing the server startup timeout value (currently 20000ms), Node.js executable path: C:\Program Files\nodejs\node.exe, Arguments: [C:\Users\akash.h\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js, --port, 4723, --address, 127.0.0.1, --log, C:\new\seleniummobileautomation\AppiumLog.txt, --session-override]]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException: [The local appium server has not been started, Reason: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms, Consider increasing the server startup timeout value (currently 20000ms), Node.js executable path: C:\Program Files\nodejs\node.exe, Arguments: [C:\Users\akash.h\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js, --port, 4723, --address, 127.0.0.1, --log, C:\new\seleniummobileautomation\AppiumLog.txt, --session-override]]
-at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:202)
-at com.base.Base.setUp(Base.java:54)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:94)
-at io.appium.java_client.service.local.AppiumDriverLocalService.ping(AppiumDriverLocalService.java:157)
-at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:181)
-... 20 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:91)
-... 22 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException -->
+        <test-method signature="checkNotification()[pri:8, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:42:47 IST" name="checkNotification" finished-at="2023-11-13T14:42:50 IST" duration-ms="3825" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkNotification -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:14:06 IST" name="getResult" finished-at="2023-09-27T16:14:06 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:42:50 IST" name="getResult" finished-at="2023-11-13T14:42:50 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkNotification status=SUCCESS method=LetyShopsTest.checkNotification()[pri:8, instance:com.test.LetyShopsTest@61526469] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="searchItem()[pri:9, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:14:06 IST" name="searchItem" finished-at="2023-09-27T16:14:06 IST" duration-ms="0" status="SKIP">
-          <exception class="io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException">
-            <message>
-              <![CDATA[[The local appium server has not been started, Reason: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms, Consider increasing the server startup timeout value (currently 20000ms), Node.js executable path: C:\Program Files\nodejs\node.exe, Arguments: [C:\Users\akash.h\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js, --port, 4723, --address, 127.0.0.1, --log, C:\new\seleniummobileautomation\AppiumLog.txt, --session-override]]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException: [The local appium server has not been started, Reason: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms, Consider increasing the server startup timeout value (currently 20000ms), Node.js executable path: C:\Program Files\nodejs\node.exe, Arguments: [C:\Users\akash.h\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js, --port, 4723, --address, 127.0.0.1, --log, C:\new\seleniummobileautomation\AppiumLog.txt, --session-override]]
-at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:202)
-at com.base.Base.setUp(Base.java:54)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:94)
-at io.appium.java_client.service.local.AppiumDriverLocalService.ping(AppiumDriverLocalService.java:157)
-at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:181)
-... 20 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:91)
-... 22 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException -->
+        <test-method signature="searchItem()[pri:9, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:42:50 IST" name="searchItem" finished-at="2023-11-13T14:42:57 IST" duration-ms="6520" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- searchItem -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:14:06 IST" name="getResult" finished-at="2023-09-27T16:14:06 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:42:57 IST" name="getResult" finished-at="2023-11-13T14:42:57 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchItem status=SUCCESS method=LetyShopsTest.searchItem()[pri:9, instance:com.test.LetyShopsTest@61526469] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="storePage()[pri:10, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:14:06 IST" name="storePage" finished-at="2023-09-27T16:14:06 IST" duration-ms="0" status="SKIP">
-          <exception class="io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException">
-            <message>
-              <![CDATA[[The local appium server has not been started, Reason: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms, Consider increasing the server startup timeout value (currently 20000ms), Node.js executable path: C:\Program Files\nodejs\node.exe, Arguments: [C:\Users\akash.h\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js, --port, 4723, --address, 127.0.0.1, --log, C:\new\seleniummobileautomation\AppiumLog.txt, --session-override]]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException: [The local appium server has not been started, Reason: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms, Consider increasing the server startup timeout value (currently 20000ms), Node.js executable path: C:\Program Files\nodejs\node.exe, Arguments: [C:\Users\akash.h\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js, --port, 4723, --address, 127.0.0.1, --log, C:\new\seleniummobileautomation\AppiumLog.txt, --session-override]]
-at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:202)
-at com.base.Base.setUp(Base.java:54)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:94)
-at io.appium.java_client.service.local.AppiumDriverLocalService.ping(AppiumDriverLocalService.java:157)
-at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:181)
-... 20 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:91)
-... 22 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException -->
+        <test-method signature="storePage()[pri:10, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:42:57 IST" name="storePage" finished-at="2023-11-13T14:43:25 IST" duration-ms="27918" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- storePage -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:14:06 IST" name="getResult" finished-at="2023-09-27T16:14:06 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:43:25 IST" name="getResult" finished-at="2023-11-13T14:43:25 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=storePage status=SUCCESS method=LetyShopsTest.storePage()[pri:10, instance:com.test.LetyShopsTest@61526469] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method signature="testProfile()[pri:11, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:14:06 IST" name="testProfile" finished-at="2023-09-27T16:14:06 IST" duration-ms="0" status="SKIP">
-          <exception class="io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException">
-            <message>
-              <![CDATA[[The local appium server has not been started, Reason: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms, Consider increasing the server startup timeout value (currently 20000ms), Node.js executable path: C:\Program Files\nodejs\node.exe, Arguments: [C:\Users\akash.h\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js, --port, 4723, --address, 127.0.0.1, --log, C:\new\seleniummobileautomation\AppiumLog.txt, --session-override]]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException: [The local appium server has not been started, Reason: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms, Consider increasing the server startup timeout value (currently 20000ms), Node.js executable path: C:\Program Files\nodejs\node.exe, Arguments: [C:\Users\akash.h\AppData\Roaming\npm\node_modules\appium\build\lib\appium.js, --port, 4723, --address, 127.0.0.1, --log, C:\new\seleniummobileautomation\AppiumLog.txt, --session-override]]
-at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:202)
-at com.base.Base.setUp(Base.java:54)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:69)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:361)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:296)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:376)
-at org.testng.SuiteRunner.run(SuiteRunner.java:330)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1256)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1176)
-at org.testng.TestNG.runSuites(TestNG.java:1099)
-at org.testng.TestNG.run(TestNG.java:1067)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-Caused by: org.openqa.selenium.net.UrlChecker$TimeoutException: Timed out waiting for [http://127.0.0.1:4723/status] to be available after 20003 ms
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:94)
-at io.appium.java_client.service.local.AppiumDriverLocalService.ping(AppiumDriverLocalService.java:157)
-at io.appium.java_client.service.local.AppiumDriverLocalService.start(AppiumDriverLocalService.java:181)
-... 20 more
-Caused by: java.util.concurrent.TimeoutException
-at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:204)
-at org.openqa.selenium.net.UrlChecker.waitUntilAvailable(UrlChecker.java:91)
-... 22 more
-]]>
-            </full-stacktrace>
-          </exception> <!-- io.appium.java_client.service.local.AppiumServerHasNotBeenStartedLocallyException -->
+        <test-method signature="testProfile()[pri:11, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:43:25 IST" name="testProfile" finished-at="2023-11-13T14:43:45 IST" duration-ms="20383" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testProfile -->
-        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:14:06 IST" name="getResult" finished-at="2023-09-27T16:14:06 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:43:45 IST" name="getResult" finished-at="2023-11-13T14:43:45 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testProfile status=SUCCESS method=LetyShopsTest.testProfile()[pri:11, instance:com.test.LetyShopsTest@61526469] output={null}]]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getResult -->
-        <test-method is-config="true" signature="endReport()[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:14:06 IST" name="endReport" finished-at="2023-09-27T16:14:06 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="endReport()[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:43:45 IST" name="endReport" finished-at="2023-11-13T14:43:45 IST" duration-ms="303" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endReport -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-09-27T16:14:06 IST" name="tearDown" finished-at="2023-09-27T16:14:06 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.LetyShopsTest@61526469]" started-at="2023-11-13T14:43:46 IST" name="tearDown" finished-at="2023-11-13T14:43:51 IST" duration-ms="5030" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

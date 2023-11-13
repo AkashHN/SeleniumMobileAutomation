@@ -1,19 +1,12 @@
 package com.page.web;
 
-import java.time.Duration;
-
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 
 import io.appium.java_client.AppiumDriver;
 
 public class HRMLoginPage{
-    private static final Logger logger = LogManager.getLogger(HRMLoginPage.class);
     private final By loginHeadingImg = By.xpath("(//android.widget.Image[@class=\"android.widget.Image\"])[2]");
     private final By usernameField = By.xpath("(//android.widget.EditText[@class=\"android.widget.EditText\"])[1]");
     private final By passwordField = By.xpath("(//android.widget.EditText[@class=\"android.widget.EditText\"])[2]");
@@ -59,8 +52,8 @@ public class HRMLoginPage{
 		neverForSiteBtn.click();}
         WebElement invalidCredentialsCheck = driver.findElement(invalidCredentials);
         Assert.assertTrue(invalidCredentialsCheck.isDisplayed(), "Header is not visible in next page");
-        
     }
+    
     public WebElement getLogo() {
     	WebElement loginHeadingVisible=driver.findElement(loginHeadingImg);
     	return loginHeadingVisible;
